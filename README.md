@@ -10,6 +10,7 @@ The project uses several dependencies, including:
  - Rest-assured for REST API Testing.
  - Log4j for logging.
  - Apache Commons CSV for working with CSV files.
+ - Java 21 (can be changed in pom.xml)
 
 
 ## Building and Running Tests
