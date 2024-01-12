@@ -4,11 +4,6 @@ It contains a regression test suite as well as a more exhaustive test for a part
 There is also a Jmeter plugin that can be used for performance testing.
 
 
-## Prerequisites
-- Java 8 or higher
-- Maven 3.6.0 or higher
-
-
 ## Dependencies
 The project uses several dependencies, including:  
  - TestNG for testing framework.
