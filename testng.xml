@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="AllTests">
+    <listeners>
+        <listener class-name="org.opentdbtest.util.TestListener" />
+    </listeners>
+    <test name="FunctionalRegressionTests">
+        <groups>
+            <run>
+                <include name="regression"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="org.opentdbtest.functional.regression"/>
+        </packages>
+    </test>
+    <test name="FunctionalExhaustiveTests">
+        <groups>
+            <run>
+                <include name="exhaustive"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="org.opentdbtest.functional.exhaustive"/>
+        </packages>
+    </test>
+</suite>
